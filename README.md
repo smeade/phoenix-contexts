@@ -6,11 +6,10 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
   - [x] Overview [
     [guide](https://hexdocs.pm/phoenix/contexts.html)
     ]
-  - [ ] Adding an Accounts Context [
-    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-an-accounts-context)
-    ]
-  - [ ] Starting With Generators [
-    [guide](https://hexdocs.pm/phoenix/contexts.html#starting-with-generators)
+  - [x] Adding an Accounts Context With Generators [
+    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-an-accounts-context) |
+    [code:controller](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/user_controller.ex) |    [code:context](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex) |
+    [code:schema](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/user.ex)
     ]
   - [ ] In-context Relationships: e.g. Authentication [
     [guide](https://hexdocs.pm/phoenix/contexts.html#in-context-relationships)
