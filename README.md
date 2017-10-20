@@ -62,20 +62,20 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
       - [x] Add to router
       - [x] Generate an Author schema
       - [x] Add an author_id field to the pages table
-  - [ ] Cross-context data: e.g.  [
+  - [x] Cross-context data: e.g.  [
     [guide](https://hexdocs.pm/phoenix/contexts.html#cross-context-data)
     ]
     - [x] Tie pages to authors and author to users
-      - [x] page belongs_to author
-      - [x] author has_many pages
-      - [x] author belongs_to user
+      - [x] page belongs_to author [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/page.ex#L10)]
+      - [x] author has_many pages [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/author.ex#L11)]
+      - [x] author belongs_to user [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/author.ex#L12)]
     - [x] Require an author on pages
-      - [x] preload data on fetch
-      - [x] persist author data
-      - [x] functions to ensure author exists
-      - [x] add plugs to CMS.PageController
-      - [x] make use of the values in the connection assigns
-      - [x] display author when showing a page
+      - [x] preload data on fetch [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/cms.ex#L14)]
+      - [x] persist author data [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/cms.ex#L44)]
+      - [x] functions to ensure author exists [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/cms.ex#L48-L58)]
+      - [x] add plug to CMS.PageController [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L7) | [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L61-L64)]
+      - [x] make use of the values in the connection assigns [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L21)]
+      - [x] display author when showing a page [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/cms/page/show.html.eex#L20-L23) | [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/views/cms/page_view.ex#L6-L8)]
   - [ ] Adding CMS functions: e.g. page views [
     [guide](https://hexdocs.pm/phoenix/contexts.html#adding-cms-functions)
     ]
