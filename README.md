@@ -31,8 +31,9 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
     - [x] add association to user show [
       [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/user/show.html.eex#L15-L19)
       ]
-  - [ ] Adding Account Functions: e.g. Sessions [
-    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions)
+  - [x] Adding Account Functions: e.g. Sessions [
+    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions) |
+    [code:controller]()
     ]
   - [ ] Cross-context dependencies: e.g. CMS [
     [guide](https://hexdocs.pm/phoenix/contexts.html#cross-context-dependencies)
