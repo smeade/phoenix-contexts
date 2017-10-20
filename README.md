@@ -78,10 +78,13 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
       - [x] add require_existing_author plug to CMS.PageController [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L7) | [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L61-L64)]
       - [x] make use of current_author in the connection assigns from require_existing_author plug [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L21)]
       - [x] display author when showing a page [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/cms/page/show.html.eex#L20-L23) | [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/views/cms/page_view.ex#L6-L8)]
-  - [ ] Adding CMS functions: e.g. page views [
-    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-cms-functions)
-    ]
-
+  - [x] Adding CMS functions: e.g. page views
+    - [x] Overview [
+      [guide](https://hexdocs.pm/phoenix/contexts.html#adding-cms-functions)
+      [demo]()]
+    - [x] add inc_page_views function [[code]()]
+    - [x] use the context function in the controller [[code]()]
+    - [x] see page views increment with each refresh! [[demo]()]
 
 ## To start your Phoenix server:
 
