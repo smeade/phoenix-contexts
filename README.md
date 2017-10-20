@@ -13,8 +13,24 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
     ]
   - [x] In-context Relationships: e.g. belongs_to, has_one [
     [guide](https://hexdocs.pm/phoenix/contexts.html#in-context-relationships) |
-    [code:belongs_to](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/credential.ex#L9) | [code:has_one](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/user.ex#L10)
-    ]
+    - [x] mix phx.gen.context Accounts Credential...[
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/credential.ex)
+      ]
+    - [x] has_one/belongs_to [
+      [code:belongs_to](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/credential.ex#L9) | [code:has_one](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/user.ex#L10)
+      ]
+    - [x] load association data [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex#L43)
+      ]
+    - [x] add association changeset [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex#L61)
+      ]
+    - [x] add association to user edit/create form [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/user/form.html.eex#L20-L26)
+      ]
+    - [x] add association to user show [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/user/show.html.eex#L15-L19)
+      ]
   - [ ] Adding Account Functions: e.g. Sessions [
     [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions)
     ]
