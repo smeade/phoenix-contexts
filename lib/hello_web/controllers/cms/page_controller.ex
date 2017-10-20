@@ -33,7 +33,7 @@ defmodule HelloWeb.CMS.PageController do
       id
       |> CMS.get_page!()
       |> CMS.inc_page_views()
-      
+
     render(conn, "show.html", page: page)
   end
 

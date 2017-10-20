@@ -14,7 +14,7 @@ defmodule HelloWeb.SessionController do
         |> put_flash(:info, "Welcome back!")
         |> put_session(:user_id, user.id)
         |> configure_session(renew: true)
-        |> redirect(to: "/")
+        |> redirect(to: "/cms/pages")
       {:error, :unauthorized} ->
         conn
         |> put_flash(:error, "Bad email/password combination")

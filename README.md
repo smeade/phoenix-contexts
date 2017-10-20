@@ -82,9 +82,9 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
     - [x] Overview [
       [guide](https://hexdocs.pm/phoenix/contexts.html#adding-cms-functions)
       [demo]()]
-    - [x] add inc_page_views function [[code]()]
-    - [x] use the context function in the controller [[code]()]
-    - [x] see page views increment with each refresh! [[demo]()]
+    - [x] add an inc_page_views function [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/cms/cms.ex#L29-L36)]
+    - [x] use the inc_page_views function in the controller [[code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/cms/page_controller.ex#L35)]
+    - [x] see page views increment with each refresh! [[demo](https://phx-011-contexts.herokuapp.com/cms/pages/1)]
 
 ## To start your Phoenix server:
 
