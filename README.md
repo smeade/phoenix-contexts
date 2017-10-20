@@ -11,8 +11,9 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
     [code:controller](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/user_controller.ex) |    [code:context](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex) |
     [code:schema](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/user.ex)
     ]
-  - [x] In-context Relationships: e.g. has_one, belongs_to [
+  - [x] In-context Relationships: e.g. belongs_to, has_one [
     [guide](https://hexdocs.pm/phoenix/contexts.html#in-context-relationships) |
+    [code:belongs_to](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/credential.ex#L9) | [code:has_one](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/user.ex#L10)
     ]
   - [ ] Adding Account Functions: e.g. Sessions [
     [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions)
