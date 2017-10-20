@@ -32,9 +32,25 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
       [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/user/show.html.eex#L15-L19)
       ]
   - [x] Adding Account Functions: e.g. Sessions [
-    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions) |
-    [code:controller]()
+    [guide](https://hexdocs.pm/phoenix/contexts.html#adding-account-functions)
     ]
+    - [x] Add authenticate_by_email_password function to accounts [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex#L12-L22)
+      ]
+    - [x] Create session controller [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello/accounts/accounts.ex#L12) |
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/controllers/session_controller.ex#L11)
+      ]
+    - [x] Add sessions to router [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/router.ex#L21-L22)
+      ]
+    - [x] add an authentication plug to the router [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/router.ex#L30-L40)
+      ]
+    - [x] create session view and template [
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/views/session_view.ex) |
+      [code](https://github.com/smeade/phoenix-contexts/blob/master/lib/hello_web/templates/session/new.html.eex)
+      ]
   - [ ] Cross-context dependencies: e.g. CMS [
     [guide](https://hexdocs.pm/phoenix/contexts.html#cross-context-dependencies)
     ]
