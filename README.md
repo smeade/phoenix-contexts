@@ -65,6 +65,17 @@ Code examples and a demonstration apps built in Phoenix 1.3 while reading about 
   - [ ] Cross-context data: e.g.  [
     [guide](https://hexdocs.pm/phoenix/contexts.html#cross-context-data)
     ]
+    - [x] Tie pages to authors and author to users
+      - [x] page belongs_to author
+      - [x] author has_many pages
+      - [x] author belongs_to user
+    - [x] Require an author on pages
+      - [x] preload data on fetch
+      - [x] persist author data
+      - [x] functions to ensure author exists
+      - [x] add plugs to CMS.PageController
+      - [x] make use of the values in the connection assigns
+      - [x] display author when showing a page
   - [ ] Adding CMS functions: e.g. page views [
     [guide](https://hexdocs.pm/phoenix/contexts.html#adding-cms-functions)
     ]
